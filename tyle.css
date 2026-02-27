@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: #fffafc;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.love {
+    font-size: 28px;
+    margin: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #777;
+}
+
+/* Navigation */
+nav {
+    background: #f8e1e7;
+    padding: 12px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff6f91;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #ff3f6c;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 150px;
+}
+
+/* Footer */
+footer {
+    background: #f8e1e7;
+    padding: 15px;
+}
