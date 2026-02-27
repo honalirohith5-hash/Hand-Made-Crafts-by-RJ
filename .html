@@ -5,155 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hand Made Crafts by RJ</title>
     <style>
-        /* Basic Styling */
+        /* Classic & Elegant Styling */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Playfair Display', serif, 'Georgia', serif;
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #fdf6f6;
+            color: #4a4a4a;
+            background-color: #fffaf5; /* Subtle Cream */
+            line-height: 1.6;
         }
 
         header {
-            background-color: #ffb6c1; /* Soft Pink */
-            padding: 2rem;
+            background-color: #ffffff;
+            padding: 3rem 1rem;
             text-align: center;
-            color: white;
+            border-bottom: 1px solid #e0d5c1;
+        }
+
+        .brand-name {
+            font-size: 2.8rem;
+            color: #8e6d5a; /* Classic Bronze/Brown */
+            margin: 0;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+
+        .heart {
+            color: #d63384;
+            font-size: 2.2rem;
+        }
+
+        .caption {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #b08d79;
+            margin-top: 10px;
+            letter-spacing: 1px;
         }
 
         nav {
-            background: #fff;
-            padding: 10px;
             text-align: center;
+            padding: 15px 0;
+            background: #fff;
+            border-bottom: 1px solid #eee;
             position: sticky;
             top: 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 100;
         }
 
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
-            color: #d147a3;
-            font-weight: bold;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d63384;
         }
 
         .container {
-            width: 90%;
-            max-width: 1200px;
+            width: 85%;
+            max-width: 1000px;
             margin: auto;
-            padding: 20px;
+            padding: 40px 0;
         }
 
         .section-title {
             text-align: center;
-            color: #d147a3;
-            margin-top: 40px;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            position: relative;
+            color: #8e6d5a;
         }
 
-        /* Product Grid */
+        /* Products Grid */
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
         }
 
         .card {
-            background: white;
-            padding: 15px;
-            border-radius: 10px;
+            background: #fff;
+            padding: 30px;
+            border: 1px solid #f0e6d2;
             text-align: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            transition: 0.3s;
+            transition: all 0.4s ease;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .card h3 {
-            color: #ff69b4;
-        }
-
-        /* Contact Section */
-        .contact-box {
-            background: #fff0f5;
-            padding: 30px;
-            border-radius: 10px;
-            text-align: center;
-            margin-top: 30px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: white;
-            margin-top: 50px;
-        }
-
-        .cta-button {
-            background-color: #25d366; /* WhatsApp Green */
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Hand Made Crafts by RJ</h1>
-    <p>Elegant Designs Crafted with Love</p>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#products">Products</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-    
-    <section id="about" style="text-align: center; padding: 40px 0;">
-        <h2 class="section-title">Welcome to Our Craft World</h2>
-        <p>Prathi item chala jagrattaga, prema tho prepare chestham. We specialize in custom jewelry and beautiful hair accessories for your special occasions.</p>
-    </section>
-
-    <section id="products">
-        <h2 class="section-title">Our Collections</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Jewelry</h3>
-                <p>Handmade earrings, necklaces, and more.</p>
-            </div>
-            <div class="card">
-                <h3>Hair Accessories</h3>
-                <p>Custom clips, bows, and trendy hairbands.</p>
-            </div>
-            <div class="card">
-                <h3>Gifting</h3>
-                <p>Perfectly curated gift hampers for your loved ones.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="contact-box">
-            <h2 class="section-title">Order Now</h2>
-            <p>Ma products gurinchi telusukovalanna leda order cheyalanna kinda unna WhatsApp button click cheyyandi.</p>
-            <a href="https://wa.me/911234567890" class="cta-button">Message us on WhatsApp</a>
-        </div>
-    </section>
-
-</div>
-
-<footer>
-    <p>&copy; 2026 Hand Made Crafts by RJ. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-color: #d63
